@@ -1,0 +1,16 @@
+.btnReset,
+button {
+  margin: 0;
+  padding: 0;
+  background: none;
+  cursor: pointer;
+  border: none;
+  font-size: pxToRem(16);
+}
+
+.btn {
+  width: 100%;
+  text-align: center;
+  padding: pxToRem($vr * 3) pxToRem(10);
+  border: solid pxToRem(2) $greyA;
+}

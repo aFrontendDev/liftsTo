@@ -1,0 +1,49 @@
+@import "../../globalStyles/utilities/mixins.scss";
+@import "../../globalStyles/settings/variables.scss";
+
+.wrapper {
+  color: #000;
+  padding: pxToRem(20) 0;
+  display: flex;
+  justify-content: center;
+}
+
+.inner {
+  max-width: pxToRem(400);
+  border: solid pxToRem(5) $greyA;
+  padding: pxToRem(20);
+
+}
+
+.header {
+  display: flex;
+  margin-bottom: pxToRem($vr * 5);
+}
+
+.titleWrap {
+  width: 60%;
+}
+
+.title {
+  margin: 0;
+}
+
+.logo {
+  width: 40%;
+}
+
+.body {
+
+}
+
+.form {
+
+}
+
+.error {
+
+}
+
+.actions {
+  margin-top: pxToRem($vr * 10);
+}

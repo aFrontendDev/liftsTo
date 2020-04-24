@@ -1,0 +1,120 @@
+$green: #68AA00;
+$orange: #F27503;
+$greyA: #D8D8D8;
+$greyB: #3f3e3e;
+$greyC: #ececec;
+$greyD: #9b9b9b;
+
+$colorText: #333;
+$colorWhite: #fff;
+$colorBlack: #000;
+
+$fontBase: sans-serif;
+
+$vertical-rhythm: 5; // use $vr*X to maintain vertical consistency
+$vr: $vertical-rhythm; // Alias
+
+
+// Media Query Break Points (px & em)
+$break-point-a-px: 320px;
+$break-point-a-em-val: 320 / 16;
+$break-point-a-em: #{$break-point-a-em-val}em;
+// Set to -px or -em
+$break-point-a: $break-point-a-em;
+
+// aplus because I'm adding this after initial setup (design updates) and don't want to break any existing css
+$break-point-aplus-px: 412px;
+$break-point-aplus-em-val: 412 / 16;
+$break-point-aplus-em: #{$break-point-aplus-em-val}em;
+// Set to -px or -em
+$break-point-aplus: $break-point-aplus-em;
+
+$break-point-b-px: 480px;
+$break-point-b-em-val: 480 / 16;
+$break-point-b-em: #{$break-point-b-em-val}em;
+// Set to -px or -em
+$break-point-b: $break-point-b-em;
+
+// bplus because I'm adding this after initial setup (design updates) and don't want to break any existing css
+$break-point-bplus-px: 570px;
+$break-point-bplus-em-val: 570 / 16;
+$break-point-bplus-em: #{$break-point-bplus-em-val}em;
+// Set to -px or -em
+$break-point-bplus: $break-point-bplus-em;
+
+$break-point-c-px: 660px;
+$break-point-c-em-val: 660 / 16;
+$break-point-c-em: #{$break-point-c-em-val}em;
+// Set to -px or -em
+$break-point-c: $break-point-c-em;
+
+$break-point-cplus-px: 700px;
+$break-point-cplus-em-val: 700 / 16;
+$break-point-cplus-em: #{$break-point-cplus-em-val}em;
+// Set to -px or -em
+$break-point-cplus: $break-point-cplus-em;
+
+$break-point-d-px: 768px;
+$break-point-d-em-val: 768 / 16;
+$break-point-d-em: #{$break-point-d-em-val}em;
+// Set to -px or -em
+$break-point-d: $break-point-d-em;
+
+$break-point-e-px: 1024px;
+$break-point-e-em-val: 1024 / 16;
+$break-point-e-em: #{$break-point-e-em-val}em;
+// Set to -px or -em
+$break-point-e: $break-point-e-em;
+
+// eplus because I'm adding this after initial setup (design updates) and don't want to break any existing css
+$break-point-eplus-px: 1080px;
+$break-point-eplus-em-val: 1080 / 16;
+$break-point-eplus-em: #{$break-point-eplus-em-val}em;
+// Set to -px or -em
+$break-point-eplus: $break-point-eplus-em;
+
+$break-point-f-px: 1220px;
+$break-point-f-em-val: 1220 / 16;
+$break-point-f-em: #{$break-point-f-em-val}em;
+// Set to -px or -em
+$break-point-f: $break-point-f-em;
+
+$break-point-g-px: 1480px;
+$break-point-g-em-val: 1480 / 16;
+$break-point-g-em: #{$break-point-g-em-val}em;
+// Set to -px or -em
+$break-point-g: $break-point-g-em;
+
+$break-point-h-px: 1920px;
+$break-point-h-em-val: 1920 / 16;
+$break-point-h-em: #{$break-point-h-em-val}em;
+// Set to -px or -em
+$break-point-h: $break-point-h-em;
+
+// For break point shorthands
+$BPA: "(min-width:" $break-point-a ")";
+$BPAplus: "(min-width:" $break-point-aplus ")";
+$BPB: "(min-width:" $break-point-b ")";
+$BPBplus: "(min-width:" $break-point-bplus ")";
+$BPC: "(min-width:" $break-point-c ")";
+$BPCplus: "(min-width:" $break-point-cplus ")";
+$BPD: "(min-width:" $break-point-d ")";
+$BPE: "(min-width:" $break-point-e ")";
+$BPEplus: "(min-width:" $break-point-eplus ")";
+$BPF: "(min-width:" $break-point-f ")";
+$BPG: "(min-width:" $break-point-g ")";
+$BPH: "(min-width:" $break-point-h ")";
+
+// For break point max shorthands
+$MaxBPA: "(max-width:" $break-point-a ")";
+$MaxBPAplus: "(max-width: 411px)";
+$MaxBPB: "(max-width: 479px)";
+$MaxBPBplus: "(max-width: 569px)";
+$MaxBPC: "(max-width: 659px)";
+$MaxBPCplus: "(max-width: 699px)";
+$MaxBPD: "(max-width: 767px)";
+$MaxBPE: "(max-width: 1023px)";
+$MaxBPEplus: "(max-width: 1079px)";
+$MaxBPF: "(max-width: 1219px)";
+$MaxBPG: "(max-width: 1479px)";
+$MaxBPH: "(max-width: 1919px)";

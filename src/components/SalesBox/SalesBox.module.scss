@@ -1,0 +1,29 @@
+@import "../../globalStyles/utilities/mixins.scss";
+@import "../../globalStyles/settings/variables.scss";
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  border: solid pxToRem(2) $greyA;
+  padding: pxToRem($vr);
+  flex: 1;
+  margin: 0 pxToRem(10);
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  p {
+    margin: 0;
+    margin-bottom: pxToRem($vr);
+    font-size: pxToRem(14);
+  }
+
+  span {
+    font-size: pxToRem(16);
+  }
+}

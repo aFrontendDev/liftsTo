@@ -1,0 +1,11 @@
+@import "../../globalStyles/utilities/mixins.scss";
+
+.wrapper {
+  color: #000;
+  padding: pxToRem(20) 0;
+}
+
+.sales {
+  display: flex;
+  justify-content: space-between;;
+}

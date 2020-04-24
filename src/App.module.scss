@@ -1,0 +1,47 @@
+@import "./globalStyles/utilities/mixins.scss";
+@import "./globalStyles/settings/variables.scss";
+
+.layout {
+  display: flex;
+  max-width: pxToRem(1200);
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 20%;
+  min-height: 100%;
+  border-right: solid pxToRem(2) $greyA;
+  padding-right: pxToRem(10);
+  padding-top: pxToRem($vr * 10);
+}
+
+.logo {
+  width: 100%;
+  text-align: center;
+
+  svg {
+    width: 80%;
+    max-width: pxToRem(100);
+  }
+}
+
+.nav {
+  margin-top: pxToRem($vr * 5);
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    margin: pxToRem($vr * 2) 0;
+  }
+}
+
+.main {
+  min-height: 100%;
+  width: 80%;
+  padding-left: pxToRem(30);
+}
